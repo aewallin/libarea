@@ -46,7 +46,7 @@ endif()
 
 # this defines the source-files
 set(AREA_SRC
-	${area_SOURCE_DIR}/PythonStuff.cpp
+    ${area_SOURCE_DIR}/PythonStuff.cpp
 
     ${area_SOURCE_DIR}/Arc.cpp
     ${area_SOURCE_DIR}/Area.cpp
@@ -78,9 +78,9 @@ set(AREA_SRC
 
 # include directories
 include_directories( 
-	${area_SOURCE_DIR} 
-	${area_SOURCE_DIR}/kurve/
-	${area_SOURCE_DIR}/kbool/src/
+    ${area_SOURCE_DIR} 
+    ${area_SOURCE_DIR}/kurve/
+    ${area_SOURCE_DIR}/kbool/src/
 )
 
 # this makes the Python module
@@ -105,7 +105,7 @@ MESSAGE(STATUS "Python libraries will be installed to: " ${Python_site_packages}
 
 # this installs the python library
 install(
-	TARGETS area
-	LIBRARY DESTINATION ${Python_site_packages}
+    TARGETS area
+    LIBRARY DESTINATION ${Python_site_packages}
 )
 
