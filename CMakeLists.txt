@@ -58,17 +58,8 @@ set(AREA_SRC
     ${area_SOURCE_DIR}/Curve.cpp
     ${area_SOURCE_DIR}/dxf.cpp
     
-    ${area_SOURCE_DIR}/kbool/src/booleng.cpp
-    ${area_SOURCE_DIR}/kbool/src/record.cpp
-    ${area_SOURCE_DIR}/kbool/src/scanbeam.cpp
-    ${area_SOURCE_DIR}/kbool/src/graph.cpp
-    ${area_SOURCE_DIR}/kbool/src/graphlst.cpp
-    ${area_SOURCE_DIR}/kbool/src/instonly.cpp
-    ${area_SOURCE_DIR}/kbool/src/line.cpp
-    ${area_SOURCE_DIR}/kbool/src/link.cpp
-    ${area_SOURCE_DIR}/kbool/src/lpoint.cpp    
-    ${area_SOURCE_DIR}/kbool/src/node.cpp
-     
+    ${area_SOURCE_DIR}/clipper/clipper.cpp
+
     ${area_SOURCE_DIR}/kurve/Construction.cpp
     ${area_SOURCE_DIR}/kurve/Finite.cpp
     ${area_SOURCE_DIR}/kurve/kurve.cpp
@@ -80,7 +71,7 @@ set(AREA_SRC
 include_directories( 
 	${area_SOURCE_DIR} 
 	${area_SOURCE_DIR}/kurve/
-	${area_SOURCE_DIR}/kbool/src/
+	${area_SOURCE_DIR}/clipper/
 )
 
 # this makes the Python module
