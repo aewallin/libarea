@@ -50,7 +50,7 @@ set(AREA_SRC
 
     ${area_SOURCE_DIR}/Arc.cpp
     ${area_SOURCE_DIR}/Area.cpp
-    ${area_SOURCE_DIR}/AreaBoolean.cpp
+    ${area_SOURCE_DIR}/AreaClipper.cpp
     ${area_SOURCE_DIR}/AreaDxf.cpp
     ${area_SOURCE_DIR}/AreaOrderer.cpp
     ${area_SOURCE_DIR}/AreaPocket.cpp
