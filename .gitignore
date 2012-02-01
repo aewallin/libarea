@@ -4,6 +4,7 @@
 
 #ignore the bin directory
 bin/
+.libs/
 
 #ignore the stuff cmake creates
 CMakeFiles/

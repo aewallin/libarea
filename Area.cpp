@@ -1,7 +1,7 @@
 // Area.cpp
 
 // Copyright 2011, Dan Heeks
-// This program is released under the BSD license. See the file COPYING for details.
+// This program is released under the New BSD license. See the file COPYING for details.
 
 #include "Area.h"
 #include "AreaOrderer.h"

@@ -2,7 +2,7 @@
 //                    Point, CLine & Circle classes part of geometry.lib
 //                    g.j.hawkesford August 2006 for Camtek Gmbh
 //
-// This program is released under the BSD license. See the file COPYING for details.
+// This program is released under the New BSD license. See the file COPYING for details.
 //
 // ***************************************************************************************************************************************
 
