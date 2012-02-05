@@ -6,7 +6,7 @@
 //                    g.j.hawkesford August 2003
 //						modified with 2d & 3d vector methods 2006
 //
-// This program is released under the BSD license. See the file COPYING for details.
+// This program is released under the New BSD license. See the file COPYING for details.
 //
 /////////////////////////////////////////////////////////////////////////////////////////
 #pragma once

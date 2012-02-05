@@ -3,7 +3,7 @@
 //
 //                    g.j.hawkesford August 2003
 //
-// This program is released under the BSD license. See the file COPYING for details.
+// This program is released under the New BSD license. See the file COPYING for details.
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 #include "geometry.h"
