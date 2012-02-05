@@ -136,8 +136,9 @@ def ttt_segments():
     wr.arc = False
     wr.conic = False
     wr.cubic = False
-    s3 = ttt.ttt("ABC",wr)
+    s3 = ttt.ttt("T",wr)
     segs = wr.get_segments()
+    #segs.reverse()
     return segs
 
 def segments_to_area(segs,a):
@@ -193,7 +194,7 @@ if __name__ == "__main__":
     a = area.Area()
     a = segments_to_area(segs,a)    # insert segments into area
 
-    a.Offset(-100) # produce an offset
+    a.Offset(-200) # produce an offset
 
     print "offset has ", len(a.getCurves())," polylines"
     for cr in a.getCurves():
@@ -239,9 +240,9 @@ if __name__ == "__main__":
                 r = math.sqrt( (v.p.x-v.c.x)*(v.p.x-v.c.x) + (v.p.y-v.c.y)*(v.p.y-v.c.y) )
                 cw = False
                 if v.type == -1:
-                    cw = True
-                else:
                     cw = False
+                else:
+                    cw = True
                 pt = [p, r, c, cw]
                 loop.append(pt)
                 #pass
