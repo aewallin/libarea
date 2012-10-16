@@ -32,6 +32,7 @@ execute_process(
     OUTPUT_VARIABLE Python_Includes
 )
 include_directories(${Python_Includes})
+MESSAGE(STATUS "Python_Includes: " ${Python_Includes})
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
 find_package( Boost COMPONENTS python REQUIRED)  # find BOOST and boost-python
